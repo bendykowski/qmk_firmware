@@ -18,6 +18,8 @@
 #define AUTO_SHIFT_TIMEOUT TAPPING_TERM
 #define AUTO_SHIFT_NO_SETUP
 
+#undef RGB_DISABLE_TIMEOUT
+#define RGB_DISABLE_TIMEOUT 300000
 #define RGB_MATRIX_STARTUP_SPD 60
 
 // Recommended for heavy chording.
